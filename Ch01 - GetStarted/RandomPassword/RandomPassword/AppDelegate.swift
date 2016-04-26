@@ -16,7 +16,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         
         //创建一个 Window Controller 和 XIB 文件同名
-        let mainWindowController = MainWindowController(windowNibName: "MainWindowController")
+        let mainWindowController = MainWindowController()
         
         //展示这个window
         mainWindowController.showWindow(self)
