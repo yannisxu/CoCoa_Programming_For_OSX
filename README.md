@@ -22,3 +22,9 @@
 - Obj-C 和 Swift 类型区别
 - as 强制转化 数组强制转化时用 as! 先解包
 - 错误：程序错误和 Recoverable 错误
+
+### 第五章 控制
+
+- 创建一个 Swift 文件，然后创建一个 Interface 文件，将两者连接
+- 控件中的 Cell 是什么？用来处理控件的属性
+- 完成 Challenge：Busy Board
