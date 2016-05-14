@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADF6F8801CE4015700448615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF6F87F1CE4015700448615 /* AppDelegate.swift */; };
+		ADF6F8821CE4015700448615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF6F8811CE4015700448615 /* Assets.xcassets */; };
+		ADF6F8851CE4015700448615 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF6F8831CE4015700448615 /* MainMenu.xib */; };
+		ADF6F88D1CE401A200448615 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF6F88C1CE401A200448615 /* MainWindowController.swift */; };
+		ADF6F88F1CE401C600448615 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF6F88E1CE401C600448615 /* MainWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADF6F87C1CE4015700448615 /* SpeakLine2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakLine2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF6F87F1CE4015700448615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADF6F8811CE4015700448615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADF6F8841CE4015700448615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ADF6F8861CE4015700448615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF6F88C1CE401A200448615 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		ADF6F88E1CE401C600448615 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADF6F8791CE4015700448615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADF6F8731CE4015600448615 = {
+			isa = PBXGroup;
+			children = (
+				ADF6F87E1CE4015700448615 /* SpeakLine2 */,
+				ADF6F87D1CE4015700448615 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADF6F87D1CE4015700448615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADF6F87C1CE4015700448615 /* SpeakLine2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADF6F87E1CE4015700448615 /* SpeakLine2 */ = {
+			isa = PBXGroup;
+			children = (
+				ADF6F88C1CE401A200448615 /* MainWindowController.swift */,
+				ADF6F87F1CE4015700448615 /* AppDelegate.swift */,
+				ADF6F8811CE4015700448615 /* Assets.xcassets */,
+				ADF6F8831CE4015700448615 /* MainMenu.xib */,
+				ADF6F8861CE4015700448615 /* Info.plist */,
+				ADF6F88E1CE401C600448615 /* MainWindowController.xib */,
+			);
+			path = SpeakLine2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADF6F87B1CE4015700448615 /* SpeakLine2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF6F8891CE4015700448615 /* Build configuration list for PBXNativeTarget "SpeakLine2" */;
+			buildPhases = (
+				ADF6F8781CE4015700448615 /* Sources */,
+				ADF6F8791CE4015700448615 /* Frameworks */,
+				ADF6F87A1CE4015700448615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeakLine2;
+			productName = SpeakLine2;
+			productReference = ADF6F87C1CE4015700448615 /* SpeakLine2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADF6F8741CE4015600448615 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YannisXu;
+				TargetAttributes = {
+					ADF6F87B1CE4015700448615 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ADF6F8771CE4015600448615 /* Build configuration list for PBXProject "SpeakLine2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADF6F8731CE4015600448615;
+			productRefGroup = ADF6F87D1CE4015700448615 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADF6F87B1CE4015700448615 /* SpeakLine2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADF6F87A1CE4015700448615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF6F8821CE4015700448615 /* Assets.xcassets in Resources */,
+				ADF6F88F1CE401C600448615 /* MainWindowController.xib in Resources */,
+				ADF6F8851CE4015700448615 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADF6F8781CE4015700448615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF6F88D1CE401A200448615 /* MainWindowController.swift in Sources */,
+				ADF6F8801CE4015700448615 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADF6F8831CE4015700448615 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF6F8841CE4015700448615 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADF6F8871CE4015700448615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADF6F8881CE4015700448615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ADF6F88A1CE4015700448615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpeakLine2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snippet.SpeakLine2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADF6F88B1CE4015700448615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpeakLine2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snippet.SpeakLine2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADF6F8771CE4015600448615 /* Build configuration list for PBXProject "SpeakLine2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF6F8871CE4015700448615 /* Debug */,
+				ADF6F8881CE4015700448615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF6F8891CE4015700448615 /* Build configuration list for PBXNativeTarget "SpeakLine2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF6F88A1CE4015700448615 /* Debug */,
+				ADF6F88B1CE4015700448615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADF6F8741CE4015600448615 /* Project object */;
+}
