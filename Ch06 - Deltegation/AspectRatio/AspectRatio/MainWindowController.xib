@@ -22,7 +22,7 @@
                 <autoresizingMask key="autoresizingMask"/>
             </view>
             <connections>
-                <outlet property="delegate" destination="-2" id="grX-6P-IWx"/>
+                <outlet property="delegate" destination="-2" id="hQk-V1-04Z"/>
             </connections>
         </window>
     </objects>

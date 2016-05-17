@@ -10,7 +10,6 @@ import Cocoa
 
 class MainWindowController: NSWindowController, NSWindowDelegate {
 
-    
     override var windowNibName: String? {
         return "MainWindowController"
     }
@@ -20,10 +19,8 @@ class MainWindowController: NSWindowController, NSWindowDelegate {
     }
     
     
-//    func windowDidResize(notification: NSNotification) {
-//        print("did Resize")
-//    }
     
+    // add code like this
     func windowWillResize(sender: NSWindow, toSize frameSize: NSSize) -> NSSize {
         let mySize = NSSize(width: frameSize.width, height: frameSize.width / 2)
         print("width is \(frameSize.width)")

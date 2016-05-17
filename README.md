@@ -39,3 +39,7 @@
     - 忘记设置委托属性，window 需要在 xib 里设置连接
     - Swift 大小写敏感，拼写错方法
 - cocoa 框架的大部分工作是去学习如何执行正确的操作方法、委托方法、通知监控，让代码在合适的时候运行
+
+### 第七章 Table Views 使用
+- NSTableViewDataSource 绑定数据
+- 将 text field 与 table cell view 绑定
