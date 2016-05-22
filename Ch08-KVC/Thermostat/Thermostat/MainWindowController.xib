@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MainWindowController" customModule="Thermostat" customModuleProvider="target">
+            <connections>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Thermostat" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="360" height="480"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="480"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GRW-KC-UB5">
+                        <rect key="frame" x="221" y="321" width="88" height="32"/>
+                        <buttonCell key="cell" type="push" title="Warmer" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5hn-9G-0L5">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="makeWarmer:" target="-2" id="i9m-2K-BqZ"/>
+                            <binding destination="-2" name="enabled" keyPath="isOn" id="fii-iT-tod"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vgF-Xr-SSj">
+                        <rect key="frame" x="225" y="151" width="80" height="32"/>
+                        <buttonCell key="cell" type="push" title="Cooler" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xX7-Fh-a5n">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="makeCooler:" target="-2" id="LT4-Fb-r8n"/>
+                            <binding destination="-2" name="enabled" keyPath="isOn" id="6xc-Tx-qyK"/>
+                        </connections>
+                    </button>
+                    <slider horizontalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jSr-cp-TKP">
+                        <rect key="frame" x="55" y="40" width="20" height="400"/>
+                        <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="right" sliderType="linear" id="prg-4e-7or"/>
+                        <connections>
+                            <binding destination="-2" name="enabled" keyPath="isOn" id="xSd-Ey-vur"/>
+                            <binding destination="-2" name="value" keyPath="temperature" id="bf7-e5-A7h"/>
+                        </connections>
+                    </slider>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l6y-cK-WX5">
+                        <rect key="frame" x="257" y="26" width="81" height="19"/>
+                        <buttonCell key="cell" type="recessed" title="Power" bezelStyle="recessed" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5Ok-Tc-OYQ">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                            <font key="font" metaFont="systemBold" size="12"/>
+                        </buttonCell>
+                        <connections>
+                            <binding destination="-2" name="value" keyPath="isOn" id="89e-nm-8qt"/>
+                        </connections>
+                    </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HaU-fO-kKz">
+                        <rect key="frame" x="85" y="232" width="37" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="K6V-KC-fOR">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                        <connections>
+                            <binding destination="-2" name="value" keyPath="temperature" id="Lea-CP-Chi"/>
+                        </connections>
+                    </textField>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+        </window>
+    </objects>
+</document>

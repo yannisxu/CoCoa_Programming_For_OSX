@@ -41,5 +41,18 @@
 - cocoa 框架的大部分工作是去学习如何执行正确的操作方法、委托方法、通知监控，让代码在合适的时候运行
 
 ### 第七章 Table Views 使用
+
 - NSTableViewDataSource 绑定数据
 - 将 text field 与 table cell view 绑定
+-『Table View Cell』 bind to 『Table Cell View』
+
+### 第八章 KVC、KVO、and bingdings
+
+- Key-value coding
+- Key-value observing
+- dynamic var 
+- bind value to file’s ower and type model key path
+- 按钮的 value 可以和 dynamic var 值绑定，直接控制开关
+- 以上同理与按钮的 enable 属性
+- 调试：lldb 和 调试区
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Thermostat/AppDelegate.swift"
+            timestampString = "485610726.474634"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "applicationDidFinishLaunching(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Thermostat/MainWindowController.swift"
+            timestampString = "485610798.042649"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "MainWindowController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

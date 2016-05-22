@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ADD7FF191CEBE9F80032D706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD7FF181CEBE9F80032D706 /* AppDelegate.swift */; };
-		ADD7FF1B1CEBE9F80032D706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD7FF1A1CEBE9F80032D706 /* Assets.xcassets */; };
-		ADD7FF1E1CEBE9F80032D706 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD7FF1C1CEBE9F80032D706 /* MainMenu.xib */; };
-		ADD7FF2F1CEBEAD70032D706 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD7FF2D1CEBEAD70032D706 /* MainWindowController.swift */; };
-		ADD7FF301CEBEAD70032D706 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD7FF2E1CEBEAD70032D706 /* MainWindowController.xib */; };
+		AD6E73241CF15687006E5048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E73231CF15687006E5048 /* AppDelegate.swift */; };
+		AD6E73261CF15687006E5048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6E73251CF15687006E5048 /* Assets.xcassets */; };
+		AD6E73291CF15687006E5048 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD6E73271CF15687006E5048 /* MainMenu.xib */; };
+		AD6E73321CF156B3006E5048 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E73301CF156B3006E5048 /* MainWindowController.swift */; };
+		AD6E73331CF156B3006E5048 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD6E73311CF156B3006E5048 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ADD7FF151CEBE9F80032D706 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADD7FF181CEBE9F80032D706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADD7FF1A1CEBE9F80032D706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ADD7FF1D1CEBE9F80032D706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		ADD7FF1F1CEBE9F80032D706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADD7FF2D1CEBEAD70032D706 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
-		ADD7FF2E1CEBEAD70032D706 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		AD6E73201CF15687006E5048 /* Thermostat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thermostat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6E73231CF15687006E5048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD6E73251CF15687006E5048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD6E73281CF15687006E5048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AD6E732A1CF15687006E5048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6E73301CF156B3006E5048 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		AD6E73311CF156B3006E5048 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ADD7FF121CEBE9F80032D706 /* Frameworks */ = {
+		AD6E731D1CF15687006E5048 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ADD7FF0C1CEBE9F80032D706 = {
+		AD6E73171CF15687006E5048 = {
 			isa = PBXGroup;
 			children = (
-				ADD7FF171CEBE9F80032D706 /* TodoList */,
-				ADD7FF161CEBE9F80032D706 /* Products */,
+				AD6E73221CF15687006E5048 /* Thermostat */,
+				AD6E73211CF15687006E5048 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ADD7FF161CEBE9F80032D706 /* Products */ = {
+		AD6E73211CF15687006E5048 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADD7FF151CEBE9F80032D706 /* TodoList.app */,
+				AD6E73201CF15687006E5048 /* Thermostat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADD7FF171CEBE9F80032D706 /* TodoList */ = {
+		AD6E73221CF15687006E5048 /* Thermostat */ = {
 			isa = PBXGroup;
 			children = (
-				ADD7FF181CEBE9F80032D706 /* AppDelegate.swift */,
-				ADD7FF1A1CEBE9F80032D706 /* Assets.xcassets */,
-				ADD7FF1C1CEBE9F80032D706 /* MainMenu.xib */,
-				ADD7FF1F1CEBE9F80032D706 /* Info.plist */,
-				ADD7FF2D1CEBEAD70032D706 /* MainWindowController.swift */,
-				ADD7FF2E1CEBEAD70032D706 /* MainWindowController.xib */,
+				AD6E73231CF15687006E5048 /* AppDelegate.swift */,
+				AD6E73251CF15687006E5048 /* Assets.xcassets */,
+				AD6E73271CF15687006E5048 /* MainMenu.xib */,
+				AD6E732A1CF15687006E5048 /* Info.plist */,
+				AD6E73301CF156B3006E5048 /* MainWindowController.swift */,
+				AD6E73311CF156B3006E5048 /* MainWindowController.xib */,
 			);
-			path = TodoList;
+			path = Thermostat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADD7FF141CEBE9F80032D706 /* TodoList */ = {
+		AD6E731F1CF15687006E5048 /* Thermostat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADD7FF221CEBE9F80032D706 /* Build configuration list for PBXNativeTarget "TodoList" */;
+			buildConfigurationList = AD6E732D1CF15687006E5048 /* Build configuration list for PBXNativeTarget "Thermostat" */;
 			buildPhases = (
-				ADD7FF111CEBE9F80032D706 /* Sources */,
-				ADD7FF121CEBE9F80032D706 /* Frameworks */,
-				ADD7FF131CEBE9F80032D706 /* Resources */,
+				AD6E731C1CF15687006E5048 /* Sources */,
+				AD6E731D1CF15687006E5048 /* Frameworks */,
+				AD6E731E1CF15687006E5048 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TodoList;
-			productName = TodoList;
-			productReference = ADD7FF151CEBE9F80032D706 /* TodoList.app */;
+			name = Thermostat;
+			productName = Thermostat;
+			productReference = AD6E73201CF15687006E5048 /* Thermostat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ADD7FF0D1CEBE9F80032D706 /* Project object */ = {
+		AD6E73181CF15687006E5048 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = YannisXu;
 				TargetAttributes = {
-					ADD7FF141CEBE9F80032D706 = {
+					AD6E731F1CF15687006E5048 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = ADD7FF101CEBE9F80032D706 /* Build configuration list for PBXProject "TodoList" */;
+			buildConfigurationList = AD6E731B1CF15687006E5048 /* Build configuration list for PBXProject "Thermostat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,46 +107,46 @@
 				en,
 				Base,
 			);
-			mainGroup = ADD7FF0C1CEBE9F80032D706;
-			productRefGroup = ADD7FF161CEBE9F80032D706 /* Products */;
+			mainGroup = AD6E73171CF15687006E5048;
+			productRefGroup = AD6E73211CF15687006E5048 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADD7FF141CEBE9F80032D706 /* TodoList */,
+				AD6E731F1CF15687006E5048 /* Thermostat */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ADD7FF131CEBE9F80032D706 /* Resources */ = {
+		AD6E731E1CF15687006E5048 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADD7FF1B1CEBE9F80032D706 /* Assets.xcassets in Resources */,
-				ADD7FF301CEBEAD70032D706 /* MainWindowController.xib in Resources */,
-				ADD7FF1E1CEBE9F80032D706 /* MainMenu.xib in Resources */,
+				AD6E73261CF15687006E5048 /* Assets.xcassets in Resources */,
+				AD6E73331CF156B3006E5048 /* MainWindowController.xib in Resources */,
+				AD6E73291CF15687006E5048 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ADD7FF111CEBE9F80032D706 /* Sources */ = {
+		AD6E731C1CF15687006E5048 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADD7FF2F1CEBEAD70032D706 /* MainWindowController.swift in Sources */,
-				ADD7FF191CEBE9F80032D706 /* AppDelegate.swift in Sources */,
+				AD6E73321CF156B3006E5048 /* MainWindowController.swift in Sources */,
+				AD6E73241CF15687006E5048 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ADD7FF1C1CEBE9F80032D706 /* MainMenu.xib */ = {
+		AD6E73271CF15687006E5048 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ADD7FF1D1CEBE9F80032D706 /* Base */,
+				AD6E73281CF15687006E5048 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -154,7 +154,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		ADD7FF201CEBE9F80032D706 /* Debug */ = {
+		AD6E732B1CF15687006E5048 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -199,7 +199,7 @@
 			};
 			name = Debug;
 		};
-		ADD7FF211CEBE9F80032D706 /* Release */ = {
+		AD6E732C1CF15687006E5048 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,26 +236,26 @@
 			};
 			name = Release;
 		};
-		ADD7FF231CEBE9F80032D706 /* Debug */ = {
+		AD6E732E1CF15687006E5048 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TodoList/Info.plist;
+				INFOPLIST_FILE = Thermostat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.snippet.TodoList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snippet.Thermostat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		ADD7FF241CEBE9F80032D706 /* Release */ = {
+		AD6E732F1CF15687006E5048 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TodoList/Info.plist;
+				INFOPLIST_FILE = Thermostat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.snippet.TodoList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.snippet.Thermostat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -263,25 +263,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADD7FF101CEBE9F80032D706 /* Build configuration list for PBXProject "TodoList" */ = {
+		AD6E731B1CF15687006E5048 /* Build configuration list for PBXProject "Thermostat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADD7FF201CEBE9F80032D706 /* Debug */,
-				ADD7FF211CEBE9F80032D706 /* Release */,
+				AD6E732B1CF15687006E5048 /* Debug */,
+				AD6E732C1CF15687006E5048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADD7FF221CEBE9F80032D706 /* Build configuration list for PBXNativeTarget "TodoList" */ = {
+		AD6E732D1CF15687006E5048 /* Build configuration list for PBXNativeTarget "Thermostat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADD7FF231CEBE9F80032D706 /* Debug */,
-				ADD7FF241CEBE9F80032D706 /* Release */,
+				AD6E732E1CF15687006E5048 /* Debug */,
+				AD6E732F1CF15687006E5048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ADD7FF0D1CEBE9F80032D706 /* Project object */;
+	rootObject = AD6E73181CF15687006E5048 /* Project object */;
 }
