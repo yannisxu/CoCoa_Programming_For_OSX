@@ -56,3 +56,16 @@
 - 以上同理与按钮的 enable 属性
 - 调试：lldb 和 调试区
 
+
+### 第九章 NSArrayController
+- NSTableView 与 NSArrayController 绑定
+    - Content，content 是 NSArrayController 的输入，他与 arrangedObject 输出绑定
+    - selection Index
+    - Sort Descriptors
+- NSArrayController 与 Document 绑定
+    -Employees
+
+### 第十章 Formatter and Validation
+
+- 用绑定的方式做格式校验
+- validateKey 重写验证过程
