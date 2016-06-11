@@ -70,7 +70,7 @@
 - 用绑定的方式做格式校验
 - validateKey 重写验证过程
 
-### 第十章 撤销
+### 第十一章 撤销
 
 - undo stack 和 redo stack
 - key value observing
