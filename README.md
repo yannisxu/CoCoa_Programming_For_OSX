@@ -69,3 +69,10 @@
 
 - 用绑定的方式做格式校验
 - validateKey 重写验证过程
+
+### 第十章 撤销
+
+- undo stack 和 redo stack
+- key value observing
+- inEmployeesAtIndex index: Int （内部和外部参数名）
+- 最近几章大部分内容只会用，还没理解，需要靠自己做的例子来巩固
