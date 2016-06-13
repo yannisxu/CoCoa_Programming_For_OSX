@@ -76,3 +76,11 @@
 - key value observing
 - inEmployeesAtIndex index: Int （内部和外部参数名）
 - 最近几章大部分内容只会用，还没理解，需要靠自己做的例子来巩固
+
+
+### 第十二章 存档
+
+- 存档依赖于 NSCoding 协议
+- 存档包括：存储数据，加载数据，展示数据
+- Uniform type identifiers UTI
+- info.plist 是一个 xml key-value 文件
