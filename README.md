@@ -84,3 +84,15 @@
 - 存档包括：存储数据，加载数据，展示数据
 - Uniform type identifiers UTI
 - info.plist 是一个 xml key-value 文件
+
+
+### 第十三章 基础核心数据
+
+- 这个章节主要内容为不通过代码来创建一个核心数据的 App
+- 分布操作
+	1. 创建 Entity
+	2. 绑定 Array Controller 和 Entity
+	3. 完成页面布局
+	4. 进行数据绑定和连接
+- 持久化存储类型：SQLite、XML、二进制文件
+- 将之前章节的内容在该章节再温习一边，如默认编辑选中，排序等
