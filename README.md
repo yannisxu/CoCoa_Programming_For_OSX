@@ -96,3 +96,23 @@
 	4. 进行数据绑定和连接
 - 持久化存储类型：SQLite、XML、二进制文件
 - 将之前章节的内容在该章节再温习一边，如默认编辑选中，排序等
+
+### 第十四章 NSUserDefault
+
+- 创建一个 PreferenceManager 的类，主要使用 NSUserDefaults 来实现和存储默认的设置
+- 可以存储的内容
+	- plist data
+	- 所有 Object C 的类型
+- 优先级较高的存储
+	- 参数
+	- 程序
+	- 全局默认
+	- 语言
+	- 注册默认
+- 存储路径：/Library/Preference
+
+### 第十五章 弹窗和闭包
+
+- NSAlert，默认初始化、设置参数、展示
+- 闭包语法表达式
+- 函数式编程
