@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Document.removeEmployees(NSButton) -&gt; ():Document.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectPeople[0].name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
